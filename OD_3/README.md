@@ -1,1 +1,1 @@
-# Nie polecam ściągać bo to trochę pojebane zwłaszcza argon2 
+# Nie polecam ściągać bo to trochę powalone zwłaszcza argon2 
