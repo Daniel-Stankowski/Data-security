@@ -1,0 +1,1 @@
+# Nie polecam ściągać bo to trochę pojebane zwłaszcza argon2 
