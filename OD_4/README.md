@@ -1,4 +1,5 @@
-docker run -p 80:80 -v $PWD/Desktop/od:/od -it ubuntu bash (na ubuntu podac sciezke od roota)
+docker run -p 80:80 -v $PWD/Desktop/od:/od -it ubuntu bash (na ubuntu podac sciezke od roota)  
+
 docker exec -i -t $name /bin/bash
 
 
