@@ -1,0 +1,26 @@
+Zad 1.
+costam'),('john',(select sqlite_version()))--
+
+straszny banał, wrzucamy drugą wartość do notes
+
+Zad 2.
+
+costam'),('bob',(select sqlite_version()))--
+
+tak samo jak poprzednie
+
+
+Zad 3.
+
+skrypt zad3.py za pomocą blind incjection i kilku petli zbiera wszystkie wartosci username w tabeli username,
+używa funkcji do której nie ma się permisji do wywoływania errora do stwierdzania czy warunek jest prawdziwy czy fałszywy
+
+
+Zad 4.
+
+Query parameters are kept separate from the SQL query, never interpolated into it.
+The values of the parameters are combined with the SQL query after it is parsed,
+so there is no longer any opportunity to change the syntax.
+The parameter is guaranteed to be treated as a single scalar value
+(i.e. as if it's just a string literal in an SQL expression).
+
