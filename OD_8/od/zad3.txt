@@ -1,3 +1,8 @@
+openssl genrsa -aes256 -out nazwa.key
+openssl req -new -key nazwa.key -out nazwa.csr
+
+
+
 najlepiej nowa maszynka
 
 install nginx openssl
