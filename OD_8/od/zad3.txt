@@ -1,0 +1,11 @@
+najlepiej nowa maszynka
+
+install nginx openssl
+
+na hostcie ustawic
+vim /etc/hosts
+127.0.0.1 localhost page1.com page2.com
+
+cp /od/default_zad3 /etc/nginx/sites-available/default
+
+service nginx start

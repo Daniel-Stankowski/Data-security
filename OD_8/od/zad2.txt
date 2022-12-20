@@ -1,0 +1,14 @@
+docker run -p 80:80 -p 443:443 -v $PWD/Desktop/od:/od -it ubuntu bash
+
+docker exec -i -t $name /bin/bash
+
+install nginx vim dfw 
+
+mkdir certs
+
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /od/certs/self.key -out /od/certs/self.crt
+
+cp /od/default_zad2 /etc/nginx/sites-available/default 
+
+service nginx start
+
